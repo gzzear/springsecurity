@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "name": "security.captcha",
+      "type": "com.gz.gateway.config.properties.CaptchaProperties",
+      "sourceType": "com.gz.gateway.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "security.ignore",
+      "type": "com.gz.gateway.config.properties.IgnoreWhiteProperties",
+      "sourceType": "com.gz.gateway.config.properties.IgnoreWhiteProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.captcha.category",
+      "type": "com.gz.gateway.enums.CaptchaCategory",
+      "description": "验证码类别",
+      "sourceType": "com.gz.gateway.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "security.captcha.char-length",
+      "type": "java.lang.Integer",
+      "description": "字符验证码长度",
+      "sourceType": "com.gz.gateway.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "security.captcha.enabled",
+      "type": "java.lang.Boolean",
+      "description": "验证码开关",
+      "sourceType": "com.gz.gateway.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "security.captcha.number-length",
+      "type": "java.lang.Integer",
+      "description": "数字验证码位数",
+      "sourceType": "com.gz.gateway.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "security.captcha.type",
+      "type": "com.gz.gateway.enums.CaptchaType",
+      "description": "验证码类型",
+      "sourceType": "com.gz.gateway.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "security.ignore.whites",
+      "type": "java.util.List<java.lang.String>",
+      "description": "放行白名单配置，网关不校验此处的白名单",
+      "sourceType": "com.gz.gateway.config.properties.IgnoreWhiteProperties"
+    }
+  ],
+  "hints": []
+}

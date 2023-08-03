@@ -1,0 +1,1 @@
+{"doc":"","fields":[],"enumConstants":[],"methods":[{"name":"authenticate","paramTypes":["org.springframework.security.core.Authentication"],"doc":" 短信认证\n"}],"constructors":[]}

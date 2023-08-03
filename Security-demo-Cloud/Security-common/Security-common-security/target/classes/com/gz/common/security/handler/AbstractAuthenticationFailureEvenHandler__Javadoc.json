@@ -1,0 +1,1 @@
+{"doc":" 认证失败事件处理器模板\n \n @author ruoyi\n","fields":[],"enumConstants":[],"methods":[{"name":"handle","paramTypes":["org.springframework.security.core.AuthenticationException","org.springframework.security.core.Authentication"],"doc":" 处理登录失败方法\n"}],"constructors":[]}

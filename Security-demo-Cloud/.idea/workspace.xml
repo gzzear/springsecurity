@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa564ec5-d907-4cf5-b02d-f27cc78e7152" name="默认变更列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="$USER_HOME$/localRepository" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2SNdigtiWxp3r87SNgjv8X7QLjG" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Security-gateway/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.3845209" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Security-gateway/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Security-gateway/src/main/java/com/gz/gateway" />
+      <recent name="$PROJECT_DIR$/Security-common/Security-common-security/src/main/java/com/gz/common/security" />
+      <recent name="$PROJECT_DIR$/Security-auth/src/main/java/com/gz/auth" />
+      <recent name="$PROJECT_DIR$/Security-common/Security-common-security/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Blog-service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gz.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gz.gateway.config" />
+      <recent name="com.gz.gateway.config.properties" />
+      <recent name="com.gz.gateway.filter" />
+      <recent name="com.gz.gateway.utils" />
+      <recent name="com.gz.common.core.constants" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SecurityGatewayApplication">
+    <configuration name="GeneratorCodeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gz.service.GeneratorCodeUtil" />
+      <module name="Security-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gz.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorCodeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.blog.GeneratorCodeUtil" />
+      <module name="Blog-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gz.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegionUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.blog.common.core.utils.ip.RegionUtils" />
+      <module name="Blog-common-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.blog.common.core.utils.ip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Blog-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gz.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.blog" />
+      <option name="MAIN_CLASS_NAME" value="com.blog.AuthTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestService.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Blog-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gz.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.blog" />
+      <option name="MAIN_CLASS_NAME" value="com.blog.TestService" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Security-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gz.auth.SecurityAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Security-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gz.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gz.gateway.SecurityGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecuritySystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Security-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gz.SecuritySystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AuthTest.test" />
+      <item itemvalue="JUnit.TestService.test1" />
+      <item itemvalue="Spring Boot.SecuritySystemApplication" />
+      <item itemvalue="Spring Boot.SecurityAuthApplication" />
+      <item itemvalue="Spring Boot.SecurityGatewayApplication" />
+      <item itemvalue="应用程序.GeneratorCodeUtil" />
+      <item itemvalue="应用程序.RegionUtils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SecurityGatewayApplication" />
+        <item itemvalue="JUnit.AuthTest.test" />
+        <item itemvalue="JUnit.TestService.test1" />
+        <item itemvalue="应用程序.RegionUtils" />
+        <item itemvalue="应用程序.GeneratorCodeUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="aa564ec5-d907-4cf5-b02d-f27cc78e7152" name="默认变更列表" comment="" />
+      <created>1688991102694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688991102694</updated>
+      <workItem from="1688991103799" duration="2715000" />
+      <workItem from="1689044482017" duration="23000" />
+      <workItem from="1689044510939" duration="588000" />
+      <workItem from="1689045107729" duration="394000" />
+      <workItem from="1689045516079" duration="41374000" />
+      <workItem from="1689225745542" duration="2208000" />
+      <workItem from="1689236576633" duration="286000" />
+      <workItem from="1689236877133" duration="1286000" />
+      <workItem from="1689238183324" duration="3755000" />
+      <workItem from="1689314786801" duration="675000" />
+      <workItem from="1689316207077" duration="1667000" />
+      <workItem from="1689318384026" duration="246000" />
+      <workItem from="1689318644557" duration="551000" />
+      <workItem from="1689319257305" duration="214000" />
+      <workItem from="1689319483303" duration="6969000" />
+      <workItem from="1689409085269" duration="30000" />
+      <workItem from="1689409128302" duration="25654000" />
+      <workItem from="1689568167044" duration="194644000" />
+      <workItem from="1690448147147" duration="3246000" />
+      <workItem from="1690460703962" duration="776000" />
+      <workItem from="1690461499173" duration="15928000" />
+      <workItem from="1690539049893" duration="3820000" />
+      <workItem from="1690550884314" duration="39300000" />
+      <workItem from="1690764529934" duration="6067000" />
+      <workItem from="1690781730891" duration="35892000" />
+      <workItem from="1690890104279" duration="18166000" />
+      <workItem from="1690956645346" duration="10745000" />
+      <workItem from="1690968223203" duration="2140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/spring-security-config/5.7.8/spring-security-config-5.7.8-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java</url>
+          <line>335</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/spring-security-config/5.7.8/spring-security-config-5.7.8-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java</url>
+          <line>375</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/boot/spring-boot-autoconfigure/2.7.11/spring-boot-autoconfigure-2.7.11-sources.jar!/org/springframework/boot/autoconfigure/security/servlet/SpringBootWebSecurityConfiguration.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/spring-security-config/5.7.8/spring-security-config-5.7.8-sources.jar!/org/springframework/security/config/annotation/authentication/configurers/userdetails/AbstractDaoAuthenticationConfigurer.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/spring-security-web/5.7.8/spring-security-web-5.7.8-sources.jar!/org/springframework/security/web/authentication/rememberme/AbstractRememberMeServices.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/spring-security-web/5.7.8/spring-security-web-5.7.8-sources.jar!/org/springframework/security/web/session/ConcurrentSessionFilter.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/spring-security-config/5.7.8/spring-security-config-5.7.8-sources.jar!/org/springframework/security/config/annotation/web/configurers/AuthorizeHttpRequestsConfigurer.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/spring-security-oauth2-client/5.7.8/spring-security-oauth2-client-5.7.8-sources.jar!/org/springframework/security/oauth2/client/web/OAuth2LoginAuthenticationFilter.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/spring-security-oauth2-client/5.2.2.RELEASE/spring-security-oauth2-client-5.2.2.RELEASE-sources.jar!/org/springframework/security/oauth2/client/web/OAuth2LoginAuthenticationFilter.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.java</url>
+          <line>587</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE-sources.jar!/org/springframework/security/oauth2/client/filter/OAuth2ClientAuthenticationProcessingFilter.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE-sources.jar!/org/springframework/security/oauth2/client/filter/OAuth2ClientAuthenticationProcessingFilter.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/spring-security-web/5.2.2.RELEASE/spring-security-web-5.2.2.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Security-auth/src/main/java/com/gz/auth/granter/SMSVerificationTokenGranter.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Security-auth/src/main/java/com/gz/auth/service/RedisClientDetailsService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/localRepository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/endpoint/CheckTokenEndpoint.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Security-auth/src/main/java/com/gz/auth/handler/AuthenticationFailureEvenHandler.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Security-common/Security-common-security/src/main/java/com/gz/common/security/handler/CustomAccessDeniedHandler.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Security-common/Security-common-security/src/main/java/com/gz/common/security/handler/GlobalExceptionHandler.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Security-common/Security-common-security/src/main/java/com/gz/common/security/component/SecurityInnerAspect.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Security-auth/src/main/java/com/gz/auth/service/SMSUserDetailsService.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Security-auth/src/main/java/com/gz/auth/service/SMSUserDetailsService.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Security-auth/src/main/java/com/gz/auth/granter/SMSVerificationTokenGranter.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.blog.auth.config.SecurityConfig$2" memberName="this$0" />
+        <PinnedItemInfo parentTag="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient" memberName="clientFactory" />
+        <PinnedItemInfo parentTag="java.util.LinkedHashMap$Entry" memberName="value" />
+        <PinnedItemInfo parentTag="org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration" memberName="webSecurity" />
+        <PinnedItemInfo parentTag="org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper" memberName="response" />
+        <PinnedItemInfo parentTag="org.springframework.security.authentication.ProviderManager" memberName="providers" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

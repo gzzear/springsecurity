@@ -1,0 +1,1 @@
+{"doc":" 认证成功事件处理器模块\n \n @author ruoyi\n","fields":[],"enumConstants":[],"methods":[{"name":"handle","paramTypes":["org.springframework.security.core.Authentication"],"doc":" 处理登录成功方法\n"}],"constructors":[]}

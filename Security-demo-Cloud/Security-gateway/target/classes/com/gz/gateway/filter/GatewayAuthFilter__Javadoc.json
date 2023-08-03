@@ -1,0 +1,1 @@
+{"doc":" @author Mr.M\n @version 1.0\n @description 网关认证过虑器\n @date 2022/9/27 12:10\n","fields":[],"enumConstants":[],"methods":[{"name":"getToken","paramTypes":["org.springframework.web.server.ServerWebExchange"],"doc":" 获取token\n"}],"constructors":[]}

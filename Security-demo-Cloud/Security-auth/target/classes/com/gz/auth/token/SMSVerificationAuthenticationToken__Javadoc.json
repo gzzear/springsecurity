@@ -1,0 +1,1 @@
+{"doc":"","fields":[],"enumConstants":[],"methods":[],"constructors":[{"name":"<init>","paramTypes":["java.util.Collection","java.lang.Object","java.lang.Object"],"doc":" 校验通过时使用此构造函数\n 设置参数super.setAuthenticated(true); 表示短信验证码登录校验通过，准备生成token\n"}]}

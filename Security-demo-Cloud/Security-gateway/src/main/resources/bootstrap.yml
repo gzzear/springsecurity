@@ -1,0 +1,82 @@
+# Tomcat
+server:
+  port: 9090
+
+# Spring
+spring:
+  main:
+    web-application-type: reactive
+  redis:
+    host: 114.132.160.23
+    port: 6379
+    password: gaozhe741234
+  application:
+    # 应用名称
+    name: blog-gateway
+  profiles:
+    # 环境配置
+    active: @profiles.active@
+  cloud:
+    nacos:
+      # nacos 服务地址
+      server-addr: @nacos.server@
+      discovery:
+        # 注册组
+        group: @nacos.discovery.group@
+        namespace: ${spring.profiles.active}
+      config:
+        # 配置组
+        group: @nacos.config.group@
+        namespace: ${spring.profiles.active}
+        shared-configs:
+          - data-id: application-common.yml
+            group: @nacos.config.group@
+    # 网关配置
+    gateway:
+      discovery:
+        locator:
+          lowerCaseServiceId: true
+          enabled: true
+      routes:
+        # 认证中心
+        - id: blog-auth
+          uri: lb://blog-auth
+          predicates:
+            - Path=/auth/**
+          filters:
+            # 验证码处理
+            - ValidateCodeFilter
+            - StripPrefix=1
+        # 系统模块
+        - id: blog-system
+          uri: lb://blog-system
+          predicates:
+            - Path=/system/**
+          filters:
+            - StripPrefix=1
+
+# 安全配置
+security:
+  # 验证码
+  captcha:
+    # 是否开启验证码
+    enabled: true
+    # 验证码类型 math 数组计算 char 字符验证
+    type: CHAR
+    # line 线段干扰 circle 圆圈干扰 shear 扭曲干扰
+    category: SHEAR
+    # 数字验证码位数
+    numberLength: 1
+    # 字符验证码长度
+    charLength: 4
+  ignore:
+    whites:
+      - /code
+      - /auth/token/logout
+      - /auth/token/formLogin
+      - /auth/token/smsLogin
+      - /auth/xcxLogin
+      - /auth/register
+      - /resource/sms/code
+      - /*/v3/api-docs
+      - /csrf

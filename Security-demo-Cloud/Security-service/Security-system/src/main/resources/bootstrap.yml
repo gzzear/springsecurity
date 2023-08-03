@@ -1,0 +1,54 @@
+# Tomcat
+server:
+  port: 9201
+
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: blog-system
+  profiles:
+    # 环境配置
+    active: @profiles.active@
+
+--- # nacos 配置
+spring:
+  cloud:
+    nacos:
+      # nacos 服务地址
+      server-addr: @nacos.server@
+      discovery:
+        # 注册组
+        group: @nacos.discovery.group@
+        namespace: ${spring.profiles.active}
+      config:
+        # 配置组
+        group: @nacos.config.group@
+        namespace: ${spring.profiles.active}
+        shared-configs:
+          - data-id: application-common.yml
+            group: @nacos.config.group@
+          - data-id: datasource.yml
+            group: @nacos.config.group@
+          - data-id: ${spring.application.name}.yml
+            group: @nacos.config.group@
+# 认证配置
+security:
+  oauth2:
+    client:
+      client-id: gzzear
+      client-secret: gzzear123
+      scope: server
+    resource:
+      loadBalanced: true
+      token-info-uri: http://blog-auth/oauth/check_token
+    # 不需要请求认证(token)的url
+    ignore:
+      urls:
+        - /v2/api-docs
+        - /actuator/**
+        - /sysUser/hello2
+        - /sysUser/fetchUserInfo
+        - /sysUser/queryUserInfoByPhone
+        - /sys-test/testUNAuth
+        - /check_token

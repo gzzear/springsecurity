@@ -1,0 +1,1 @@
+{"doc":" jwt 生成token相关配置\n","fields":[],"enumConstants":[],"methods":[{"name":"jwtTokenStore","paramTypes":[],"doc":" 使用jwtTokenStore存储token\n"},{"name":"jwtAccessTokenConverter","paramTypes":[],"doc":" 用于生成jwt\n"},{"name":"jwtTokenEnhancer","paramTypes":[],"doc":" 自定义令牌：用于扩展jwt\n"}],"constructors":[]}

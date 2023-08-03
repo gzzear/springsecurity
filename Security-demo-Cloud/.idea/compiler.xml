@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for Security-demo-Cloud" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/localRepository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$USER_HOME$/localRepository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$USER_HOME$/localRepository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar" />
+          <entry name="$USER_HOME$/localRepository/org/springframework/boot/spring-boot-configuration-processor/2.2.6.RELEASE/spring-boot-configuration-processor-2.2.6.RELEASE.jar" />
+        </processorPath>
+        <module name="Security-system" />
+        <module name="Security-common-core" />
+        <module name="Security-common-security" />
+        <module name="Security-auth" />
+        <module name="Blog-common-security" />
+        <module name="Security-gateway" />
+        <module name="Blog-gateway" />
+        <module name="Blog-common-core" />
+        <module name="Blog-auth" />
+        <module name="Blog-system" />
+        <module name="Security-common-redis" />
+        <module name="Blog-common-redis" />
+        <module name="Security-system-api" />
+        <module name="Security-common-mybatis" />
+        <module name="Blog-system-api" />
+        <module name="Blog-common-mybatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+</project>

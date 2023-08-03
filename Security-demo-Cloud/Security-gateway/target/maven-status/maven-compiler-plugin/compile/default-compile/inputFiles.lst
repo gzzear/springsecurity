@@ -1,0 +1,17 @@
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/filter/ValidateCodeFilter.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/handler/ValidateCodeHandler.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/service/impl/ValidateCodeServiceImpl.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/utils/WebFluxUtils.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/config/SecurityConfig.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/SecurityGatewayApplication.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/captcha/UnsignedMathGenerator.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/filter/GlobalCacheRequestFilter.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/enums/CaptchaCategory.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/filter/GatewayAuthFilter.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/enums/CaptchaType.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/config/RouterFunctionConfiguration.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/config/TokenConfig.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/config/CaptchaConfig.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/service/ValidateCodeService.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/config/properties/CaptchaProperties.java
+/Users/gaozhe/code/Security-demo-Cloud/Security-gateway/src/main/java/com/gz/gateway/config/properties/IgnoreWhiteProperties.java

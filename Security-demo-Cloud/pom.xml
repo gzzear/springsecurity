@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.gz</groupId>
+  <artifactId>Security-demo-Cloud</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>Security-common</module>
+    <module>Security-auth</module>
+    <module>Security-api</module>
+    <module>Security-gateway</module>
+    <module>Security-service</module>
+  </modules>
+
+  <properties>
+    <java.version>1.8</java.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
+    <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
+    <!-- spring-cloud-alibaba-->
+    <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
+    <hutool.version>5.8.18</hutool.version>
+    <spring-boot.mybatis>2.2.2</spring-boot.mybatis>
+    <mybatis.version>3.5.10</mybatis.version>
+    <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
+    <swagger.core.version>2.2.8</swagger.core.version>
+    <lombok.version>1.18.26</lombok.version>
+    <!-- 临时修复 fastjson 漏洞 -->
+    <fastjson.version>1.2.83</fastjson.version>
+    <!-- 离线IP地址定位库 -->
+    <ip2region.version>2.7.0</ip2region.version>
+    <dynamic-ds.version>3.5.2</dynamic-ds.version>
+    <kaptcha.version>2.3.2</kaptcha.version>
+    <spring.context.support.version>1.0.11</spring.context.support.version>
+    <p6spy.version>3.9.1</p6spy.version>
+    <!-- 临时修复 snakeyaml 漏洞 -->
+    <snakeyaml.version>1.33</snakeyaml.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.gz</groupId>
+        <artifactId>Security-common-core</artifactId>
+        <version>1.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.gz</groupId>
+        <artifactId>Security-system-api</artifactId>
+        <version>1.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.gz</groupId>
+        <artifactId>Security-common-mybatis</artifactId>
+        <version>1.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.gz</groupId>
+        <artifactId>Security-common-security</artifactId>
+        <version>1.0</version>
+      </dependency>
+
+      <!-- 验证码 -->
+      <dependency>
+        <groupId>com.github.penggle</groupId>
+        <artifactId>kaptcha</artifactId>
+        <version>${kaptcha.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.gz</groupId>
+        <artifactId>Security-common-redis</artifactId>
+        <version>1.0</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>${spring-cloud-alibaba.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <!-- SpringCloud 微服务 -->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <!-- SpringBoot 依赖配置 -->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>${spring-boot.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <!-- hutool 的依赖配置-->
+      <dependency>
+        <groupId>cn.hutool</groupId>
+        <artifactId>hutool-bom</artifactId>
+        <version>${hutool.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <!-- Mybatis 依赖配置 -->
+      <dependency>
+        <groupId>org.mybatis.spring.boot</groupId>
+        <artifactId>mybatis-spring-boot-starter</artifactId>
+        <version>${spring-boot.mybatis}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.mybatis</groupId>
+        <artifactId>mybatis</artifactId>
+        <version>${mybatis.version}</version>
+      </dependency>
+
+      <!-- Mybatis-plus 依赖配置 -->
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-boot-starter</artifactId>
+        <version>${mybatis-plus.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-annotation</artifactId>
+        <version>${mybatis-plus.version}</version>
+      </dependency>
+
+      <!-- swagger 依赖配置-->
+      <dependency>
+        <groupId>io.swagger.core.v3</groupId>
+        <artifactId>swagger-annotations</artifactId>
+        <version>${swagger.core.version}</version>
+      </dependency>
+
+      <!-- lombok 依赖配置-->
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+      </dependency>
+
+      <!-- fastjson 依赖配置-->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>${fastjson.version}</version>
+      </dependency>
+
+      <!-- 离线IP地址定位库 ip2region -->
+      <dependency>
+        <groupId>org.lionsoul</groupId>
+        <artifactId>ip2region</artifactId>
+        <version>${ip2region.version}</version>
+      </dependency>
+
+
+
+      <!-- 临时修复 snakeyaml 漏洞 -->
+      <dependency>
+        <groupId>org.yaml</groupId>
+        <artifactId>snakeyaml</artifactId>
+        <version>${snakeyaml.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.alibaba.spring</groupId>
+        <artifactId>spring-context-support</artifactId>
+        <version>${spring.context.support.version}</version>
+      </dependency>
+      <!-- sql性能分析插件 -->
+      <dependency>
+        <groupId>p6spy</groupId>
+        <artifactId>p6spy</artifactId>
+        <version>${p6spy.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <profiles>
+    <profile>
+      <id>dev-blog</id>
+      <properties>
+        <!-- 环境标识，需要与配置文件的名称相对应 -->
+        <profiles.active>dev-blog</profiles.active>
+        <nacos.server>114.132.160.23:8848</nacos.server>
+        <nacos.discovery.group>DEFAULT_GROUP</nacos.discovery.group>
+        <nacos.config.group>DEFAULT_GROUP</nacos.config.group>
+        <logstash.address>127.0.0.1:4560</logstash.address>
+      </properties>
+      <activation>
+        <!-- 默认环境 -->
+        <activeByDefault>true</activeByDefault>
+      </activation>
+    </profile>
+    <profile>
+      <id>prod</id>
+      <properties>
+        <profiles.active>prod</profiles.active>
+        <nacos.server>127.0.0.1:8848</nacos.server>
+        <nacos.discovery.group>DEFAULT_GROUP</nacos.discovery.group>
+        <nacos.config.group>DEFAULT_GROUP</nacos.config.group>
+        <logstash.address>127.0.0.1:4560</logstash.address>
+      </properties>
+    </profile>
+  </profiles>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.9.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+          <encoding>${project.build.sourceEncoding}</encoding>
+          <annotationProcessorPaths>
+            <path>
+              <groupId>com.github.therapi</groupId>
+              <artifactId>therapi-runtime-javadoc-scribe</artifactId>
+              <version>0.15.0</version>
+            </path>
+            <path>
+              <groupId>org.projectlombok</groupId>
+              <artifactId>lombok</artifactId>
+              <version>${lombok.version}</version>
+            </path>
+            <path>
+              <groupId>org.springframework.boot</groupId>
+              <artifactId>spring-boot-configuration-processor</artifactId>
+              <version>${spring-boot.version}</version>
+            </path>
+          </annotationProcessorPaths>
+        </configuration>
+      </plugin>
+      <!-- 单元测试使用 -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.2</version>
+        <configuration>
+          <argLine>-Dfile.encoding=UTF-8</argLine>
+          <!-- 根据打包环境执行对应的@Tag测试方法 -->
+          <groups>${profiles.active}</groups>
+          <!-- 排除标签 -->
+          <excludedGroups>exclude</excludedGroups>
+        </configuration>
+      </plugin>
+    </plugins>
+
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <!-- 关闭过滤 -->
+        <filtering>false</filtering>
+      </resource>
+      <resource>
+        <directory>src/main/webapp/</directory>
+      </resource>
+      <resource>
+        <directory>src/main/resources</directory>
+        <!-- 引入所有 匹配文件进行过滤 -->
+        <includes>
+          <include>application*</include>
+          <include>bootstrap*</include>
+          <include>logback*</include>
+        </includes>
+        <!-- 启用过滤 即该资源中的变量将会被过滤器中的值替换 -->
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+  </build>
+
+
+</project>

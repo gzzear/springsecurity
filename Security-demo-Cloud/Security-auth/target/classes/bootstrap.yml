@@ -1,0 +1,61 @@
+# Tomcat
+server:
+  port: 9200
+
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: blog-auth
+  profiles:
+    # 环境配置
+    active: dev-blog
+  cloud:
+    nacos:
+      # nacos 服务地址
+      server-addr: 114.132.160.23:8848
+      discovery:
+        # 注册组
+        group: DEFAULT_GROUP
+        namespace: ${spring.profiles.active}
+      config:
+        # 配置组
+        group: DEFAULT_GROUP
+        namespace: ${spring.profiles.active}
+        shared-configs:
+          - data-id: application-common.yml
+            group: DEFAULT_GROUP
+          - data-id: datasource.yml
+            group: DEFAULT_GROUP
+          - data-id: ${spring.application.name}.yml
+            group: DEFAULT_GROUP
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: 5f38065c40f3d99682ab
+            client-secret: 2fe5a049f5339776da79dc307ed15c7786207eab
+            # 一定要和github配置的重定向回调url一致
+            redirect-uri: http://localhost:9200/login/oauth2/code/github
+
+# 认证配置
+security:
+  oauth2:
+    client:
+      client-id: gzzear
+      client-secret: gzzear123
+      scope: server
+    resource:
+      loadBalanced: true
+      token-info-uri: http://blog-auth/oauth/check_token
+    # 不需要请求认证(token)的url
+    ignore:
+      urls:
+        - /v2/api-docs
+        - /actuator/**
+        - /user/info/*
+        - /operlog
+        - /sys-test/testUNAuth
+        - /token/**
+        - /check_token
